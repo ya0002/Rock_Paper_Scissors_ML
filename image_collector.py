@@ -30,6 +30,9 @@ while True:
 
     if keyboard.is_pressed('r'):
         print('pressed')
+        os.chdir(current_dir+'\\'+file_name[0])
+        to_save=frame[100:400,280:600]
+        cv2.imwrite('rock_test11.png',to_save)
 
     if cv2.waitKey(1) & 0xFF==ord('q'):
         break

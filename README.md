@@ -1,6 +1,6 @@
 # Rock_Paper_Scissors_ML
 
-A Rock Paper Scissors game that uses an image classifier trained on VGG-16 to play against the player via his/her webcam.
+A Rock Paper Scissors game that uses an image classifier trained via VGG-16 on custom dataset to play against the player via his/her webcam.
 
 ## Made using
 

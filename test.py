@@ -7,8 +7,7 @@ model=tf.keras.models.load_model('rock_paper_scissor.h5')
 move={0:'nothing',1:'paper',2:'rock',3:'scissor'}
 
 #reading the image
-# img=cv2.imread(r'C:\Users\yusuf\Downloads\my projects\Rock_Paper_Scissors_ML\Dataset\validation\paper\paper364.png')
-img=cv2.imread(r'C:\Users\yusuf\Pictures\Camera Roll\test2.jpg')[:,:700]
+img=cv2.imread(r'path to an image')
 
 # reshaping it
 img=cv2.resize(img,(290,310))

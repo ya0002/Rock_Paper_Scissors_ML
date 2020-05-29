@@ -20,7 +20,7 @@ def save_image(type_file, sample, n_samples_collected, frame,n_images):
 
 current_dir=os.getcwd()
 
-dataset_type=['train','test']
+dataset_type=['train','validation']
 file_name=['rock','paper','scissor','dummy']
 try:
     os.mkdir(current_dir + '\\' + 'Dataset')
